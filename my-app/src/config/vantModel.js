@@ -1,0 +1,75 @@
+import Vue from 'vue'
+import {
+  Button,
+  Row,
+  Col,
+  Popup,
+  Cell,
+  CellGroup,
+  Field,
+  Picker,
+  Area,
+  Uploader,
+  List,
+  PullRefresh,
+  Checkbox,
+  CheckboxGroup,
+  CountDown,
+  Overlay,
+  Divider,
+  Icon,
+  Swipe,
+  SwipeItem,
+  Lazyload,
+  Tab,
+  Tabs,
+  NavBar,
+  Toast,
+  Tag,
+  Tabbar,
+  TabbarItem,
+  DropdownMenu,
+  DropdownItem,
+  RadioGroup,
+  Radio,
+  SubmitBar,
+  Search,
+  NoticeBar,
+  DatetimePicker,
+} from 'vant';
+Vue.use(Button);
+Vue.use(Row);
+Vue.use(Col);
+Vue.use(Popup);
+Vue.use(Field);
+Vue.use(Cell);
+Vue.use(CellGroup);
+Vue.use(Picker);
+Vue.use(Area);
+Vue.use(Uploader);
+Vue.use(List);
+Vue.use(PullRefresh);
+Vue.use(Checkbox);
+Vue.use(CheckboxGroup);
+Vue.use(CountDown);
+Vue.use(Overlay);
+Vue.use(Divider);
+Vue.use(Icon);
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+Vue.use(Lazyload);
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(DropdownMenu);
+Vue.use(DropdownItem);
+Vue.use(RadioGroup);
+Vue.use(Radio);
+Vue.use(SubmitBar);
+Vue.use(Search);
+Vue.use(NoticeBar);
+Vue.use(NavBar);
+Vue.use(DatetimePicker)
+Vue.use(Tag);
+Vue.use(Tabbar)
+Vue.use(TabbarItem);
+Vue.use(Toast)
