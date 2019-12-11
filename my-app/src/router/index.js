@@ -5,6 +5,9 @@ Vue.use(Router)
 
 const NewLogin = () => import('pages/User/userLogin') // 用户登录
 const DevelopClass = () => import('pages/DevelopClass') // 患教课堂
+const GoodsList = () => import('pages/OnlineMall/goodsList') // 商品列表
+const GoodDetail = () => import('pages/OnlineMall/goodDetail') // 商品详情
+const ConsentForm = () => import('pages/OnlineMall/consentForm') // 知情同意书
 export default new Router({
   mode: 'history',
   routes: [
@@ -19,6 +22,18 @@ export default new Router({
     {
       path: '/developClass',
       component: DevelopClass
+    },
+    {
+      path: '/goodsList',
+      component: GoodsList
+    },
+    {
+      path: '/goodDetail',
+      component: GoodDetail
+    },
+    {
+      path: '/consentForm',
+      component: ConsentForm
     }
   ]
 })

@@ -130,6 +130,11 @@
           .newsTitle
             margin-top .28rem
             font-size 17px
+            p
+              display -webkit-box
+              -webkit-box-orient vertical
+              -webkit-line-clamp 2
+              overflow hidden
           .newsBottom
             width 100%
             display flex
