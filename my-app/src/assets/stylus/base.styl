@@ -58,4 +58,41 @@ body, html
   .van-checkbox__icon--checked .van-icon
     background-color $color-font-red
     border-color $color-font-red
-
+#patient-info
+  .van-step--horizontal .van-step__circle-container
+    padding 0
+  .van-step__circle
+    border 3px solid $color-font-grey-new
+    background-color $color-background!important
+  .van-icon-checked:before
+    content ''
+    display block
+    width 5px
+    height 5px
+    background-color #fff
+    border-radius 50%
+    border 3px solid $color-font-red
+  .van-step--finish .van-step__circle, .van-step--finish .van-step__line
+    background-color $color-font-red
+  .van-steps--horizontal
+    padding 0 10px 0 10px
+  .van-steps
+    width 100%
+  .van-step__title
+    font-size 12px
+    color $color-font-grey-new
+  .van-radio-group
+    display flex
+  .van-radio:last-of-type
+    margin-left .75rem
+  .van-field__body
+    height .64rem
+  .van-field__right-icon
+    height .64rem
+    display flex
+    align-items center
+  #hasCancer
+    display flex
+    justify-content space-between
+  //  background-color  $color-font-red
+  //  border-color $color-font-red

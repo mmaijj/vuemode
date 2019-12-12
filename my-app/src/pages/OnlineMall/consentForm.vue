@@ -132,7 +132,7 @@
             },
             /* 下一步 */
             nextStep () {
-
+              this.$router.push('/patientsInfo')
             }
         }
     }
@@ -153,12 +153,15 @@
         margin-top .22rem
         label
           font-size 15px
+          width 25%
           span
             color $color-font-black-new
+            display flex
           span:before
             content '*'
             color $color-font-red
             margin-right .1rem
+            padding-top 2px
       .infoDetail:first-of-type
         margin-top 0
       .searchIcon
@@ -182,7 +185,7 @@
       position absolute
       bottom 0
     .van-cell-group
-      width 5rem
+      width 75%
       border 1px solid #bcbbbb
       border-radius 6px
     .van-cell

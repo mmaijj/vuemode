@@ -36,6 +36,8 @@ import {
   Search,
   NoticeBar,
   DatetimePicker,
+  Step,
+  Steps
 } from 'vant';
 Vue.use(Button);
 Vue.use(Row);
@@ -72,4 +74,6 @@ Vue.use(DatetimePicker)
 Vue.use(Tag);
 Vue.use(Tabbar)
 Vue.use(TabbarItem);
-Vue.use(Toast)
+Vue.use(Toast);
+Vue.use(Step);
+Vue.use(Steps)
